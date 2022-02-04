@@ -21,17 +21,7 @@ function NavigationBar() {
         </Navbar.Collapse>
       </Container>
     </Navbar>
-    <div className='search-bar-div'>
-      <Form className="d-flex">
-        <FormControl
-          type="search"
-          placeholder='Pesquisar'
-          className="me-2"
-          aria-label="Search"
-        />
-        <Button variant="outline-primary">Go!</Button>
-      </Form>
-    </div>
+    
   </div>;
 }
 
