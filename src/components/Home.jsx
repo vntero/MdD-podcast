@@ -1,16 +1,16 @@
 import React from 'react';
 
 function Home() {
-  return <div>
-      <h1>Malta do Desporto</h1>
-      <p>
-          Uma breve apresentação sobre o projecto. Conceito? Desafios? Visão?
-      </p>
+  return <div className='home'>
+    <h1>O Podcast Malta do Desporto</h1>
 
-      <section>
-          Nesta secção vão aparecer os eps mais recentes, ordenados por ordem cronológica.
-          Será grabbed do spotify ou outra qualquer plataforma de streaming.
-      </section>
+    <section>
+        <h5>
+        Duarte e Elton discutem todas as quinzenas sobre diferentes temas relacionados ao desporto à nível mundial.
+        Histórias inspiradoras ou cómicas dos outros protagonistas, 
+        que normalmente não aparecem nas primeiras páginas.
+        </h5>
+    </section>
   </div>;
 }
 
