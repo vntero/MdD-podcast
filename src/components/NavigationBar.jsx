@@ -9,9 +9,9 @@ function NavigationBar() {
         <Container>
             <Navbar.Brand href="#home">MdD</Navbar.Brand>
             <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+                <Nav.Link href="#about">Sobre nós</Nav.Link>
+                <Nav.Link href="#spotify">Spotify</Nav.Link>
+                <Nav.Link href="#soundcloud">Soundcloud</Nav.Link>
             </Nav>
         </Container>
     </Navbar>

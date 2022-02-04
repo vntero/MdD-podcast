@@ -1,5 +1,9 @@
+//essentials
 import './App.css';
-import NavigationBar from './components/Navbar';
+import { Routes, Route } from 'react-router-dom'
+
+//components
+import NavigationBar from './components/NavigationBar';
 
 
 function App() {
