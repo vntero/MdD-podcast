@@ -6,7 +6,7 @@ function NavigationBar() {
   return <div>
     <Navbar bg="light" expand="lg">
       <Container>
-        <Navbar.Brand><Link to='/'>MdD</Link></Navbar.Brand>
+        <Navbar.Brand><Link to='/'><img src="/images/podcast.png" alt="MdD" height={35} width={35}/></Link></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
