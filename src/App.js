@@ -7,6 +7,7 @@ import NavigationBar from './components/NavigationBar';
 import Home from './components/Home';
 import About from './components/About';
 import Spotify from './components/Spotify';
+import Footer from './components/Footer';
 
 //main function
 function App() {
@@ -18,6 +19,7 @@ function App() {
         <Route path='/about' element={<About/>}/>
         <Route path='/spotify' element={<Spotify/>}/>
       </Routes>
+      <Footer/>
     </div>
   );
 }
