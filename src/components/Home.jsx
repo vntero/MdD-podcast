@@ -13,9 +13,9 @@ function Home() {
     </div>
     
     <div className='episodes'>
-        <iframe src="https://open.spotify.com/embed/episode/3rkwBz5HAAb8Pzqfd02unS?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        <iframe src="https://open.spotify.com/embed/episode/5edNtOwiDVjuYjQcAIbH6s?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        <iframe src="https://open.spotify.com/embed/episode/5JW1XErZLub7Ml1ruOWf8Y?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe title='ep3' src="https://open.spotify.com/embed/episode/3rkwBz5HAAb8Pzqfd02unS?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe title='ep2' src="https://open.spotify.com/embed/episode/5edNtOwiDVjuYjQcAIbH6s?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <iframe title='ep1' src="https://open.spotify.com/embed/episode/5JW1XErZLub7Ml1ruOWf8Y?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
     </div>
 </>
 }
