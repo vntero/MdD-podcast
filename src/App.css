@@ -42,7 +42,7 @@
 }
 
 .home {
-  background-color: black;
+  background-color: #323232;
   color: white;
   padding: 30px 60px 30px 60px;
 }
@@ -55,23 +55,27 @@ section {
   padding: 20px 50px 20px 50px;
 }
 
-.footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  height: 50px;
-  background-color: black;
-  color: white;
-  padding: 10px 50px 10px 50px;
-}
-
 .about {
   padding: 30px 60px 30px 60px;
-  background-color: black;
+  background-color: #323232;
   color: white;
 }
 
 .about-us {
   margin: 60px;
   padding-right: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  width: 300px;
+}
+
+.presenters {
+  width: 70%;
+  height: 70%;
+  margin: 50px 50px 50px 0;
 }

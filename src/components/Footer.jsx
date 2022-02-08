@@ -1,17 +1,29 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { Container, Navbar, Nav } from 'react-bootstrap';
+
 
 function Footer() {
-  return <div className='footer'>
-            <div>
-                <Link to='/' style={{textDecoration: 'none', color: 'white'}}><img src="/images/microphone.png" alt="MdD" height={30} width={30}/>  </Link>
-                © 2022 MdD
-            </div>
-            
-            <Link to='/about' style={{textDecoration: 'none'}}>Sobre nós</Link> 
-            <Link to='/newsletter' style={{textDecoration: 'none'}}>Newsletter</Link>
-            <a className='margin' href="mailto:ola@maltadodesporto.com"><img alt="email" src="/images/email.png" height={30} width={30}/></a>
-      </div>;
+  return <div>
+        <Navbar bg="dark" variant="dark">
+          <Container>
+            <Navbar.Brand><Link to='/'><img src="/images/microphone.png" alt="MdD" height={35} width={35}/></Link></Navbar.Brand>
+            <Navbar.Toggle aria-controls="basic-navbar-nav" />
+            <Navbar.Collapse id="basic-navbar-nav">
+              
+              <Nav className="me-auto">
+                <Nav.Link>Newsletter</Nav.Link>
+                <Nav.Link href="mailto:ola@maltadodesporto.com" target="_blank" rel="noreferrer">Colaborações</Nav.Link>
+              </Nav>
+
+              <Nav>
+                <Navbar.Text>2022 © MdD</Navbar.Text>
+              </Nav>
+
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
+  </div>
 }
 
 export default Footer;

@@ -8,9 +8,9 @@ function About() {
         <h2>Trazer conteúdo de qualidade para os amantes do desporto. Descodificar o que vai na cabeça do Verstappen
             e tentar perceber como é que o João Félix se tornou no maior flop da história do futebol.</h2>
     </div>
-
-    <div className='about-us'>
-        <Card className='about-us' style={{ width: '40rem', backgroundColor: '#EEF2FF'}}>
+    
+    <div>
+        <Card className='about-text' style={{ width: '60%', backgroundColor: '#EEF2FF'}}>
             <Card.Body>
                 <Card.Title></Card.Title>
                 <Card.Subtitle className="mb-2 text-muted">Verdes são os campos</Card.Subtitle>
@@ -40,6 +40,8 @@ function About() {
                 </Card.Text>
             </Card.Body>
         </Card>
+        
+        <img className='presenters' src="/images/presenters.jpg" alt="" />
     </div>
 </>
 }
