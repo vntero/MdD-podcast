@@ -11,13 +11,6 @@ function NavigationBar() {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link><Link to='/about' style={{textDecoration: 'none'}}>Sobre nós</Link></Nav.Link>
-            <Nav.Link><Link to='/blog' style={{textDecoration: 'none'}}>Blog</Link></Nav.Link>
-            <Nav.Link><Link to='/spotify' style={{textDecoration: 'none'}}>Spotify</Link></Nav.Link>
-          </Nav>
-          <Nav>
-            <Nav.Link href="https://instagram.com" target="_blank" rel="noreferrer"><img src="/images/instagram.png" alt="Instagram" height={25} width={25} /></Nav.Link>
-            <Nav.Link href="https://youtube.com" target="_blank" rel="noreferrer"><img src="/images/youtube.png" alt="Youtube" height={25} width={25} /></Nav.Link>
-            <Nav.Link href="https://twitter.com" target="_blank" rel="noreferrer"><img src="/images/twitter.png" alt="Twitter" height={25} width={25} /></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
