@@ -10,7 +10,7 @@ function NavigationBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link><Link to='/about' style={{textDecoration: 'none'}}>Sobre nós</Link></Nav.Link>
+            
           </Nav>
         </Navbar.Collapse>
       </Container>

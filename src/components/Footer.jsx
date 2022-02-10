@@ -12,8 +12,7 @@ function Footer() {
             <Navbar.Collapse id="basic-navbar-nav">
               
               <Nav className="me-auto">
-                <Nav.Link>Newsletter</Nav.Link>
-                <Nav.Link href="mailto:ola@maltadodesporto.com" target="_blank" rel="noreferrer">Colaborações</Nav.Link>
+                <Nav.Link><Link to='/about' style={{textDecoration: 'none'}}>Sobre nós</Link></Nav.Link>
               </Nav>
 
               <Nav>
@@ -21,6 +20,7 @@ function Footer() {
               </Nav>
 
               <Nav>
+                <Nav.Link href="mailto:ola@maltadodesporto.com" target="_blank" rel="noreferrer"><img src="/images/mail.png" alt="Email" height={30} width={30} /></Nav.Link>
                 <Nav.Link href="https://instagram.com" target="_blank" rel="noreferrer"><img src="/images/instagram.png" alt="Instagram" height={25} width={25} /></Nav.Link>
                 <Nav.Link href="https://youtube.com" target="_blank" rel="noreferrer"><img src="/images/youtube.png" alt="Youtube" height={25} width={25} /></Nav.Link>
               </Nav>

@@ -47,10 +47,6 @@
   padding: 30px 60px 30px 60px;
 }
 
-section {
-  width: 70%;
-}
-
 .episodes{
   padding: 20px 50px 20px 50px;
 }
@@ -82,34 +78,12 @@ section {
 
 .presenters {
   width: 70%;
-  height: 70%;
-  margin: 50px 0 50px 0;
+  height: 50%;
+  margin: 30px 0 30px 0;
 }
 
 .overlap {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.pic{
-  width:400px;
-  height:217px;
-  background: url(http://www.corelangs.com/css/box/img/tiger.png) no-repeat;
-}
-.text{
-  width:340px;
-  height:217px;
-  background:#FFF;
-  opacity:0;
-}
-.pic:hover .text
-{
-  opacity:0.6;
-  text-align:justify;
-  color:#000000;
-  font-size:20px;
-  font-weight:700;
-  font-family:"Times New Roman", Times, serif;
-  padding:30px;
 }
