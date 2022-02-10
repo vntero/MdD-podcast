@@ -20,7 +20,7 @@ function Footer() {
               </Nav>
 
               <Nav>
-                <Nav.Link href="mailto:ola@maltadodesporto.com" target="_blank" rel="noreferrer"><img src="/images/mail.png" alt="Email" height={30} width={30} /></Nav.Link>
+                <Nav.Link href="mailto:ola@maltadodesporto.com" target="_blank" rel="noreferrer"><img src="/images/mail.png" alt="Email" height={25} width={25} /></Nav.Link>
                 <Nav.Link href="https://instagram.com" target="_blank" rel="noreferrer"><img src="/images/instagram.png" alt="Instagram" height={25} width={25} /></Nav.Link>
                 <Nav.Link href="https://youtube.com" target="_blank" rel="noreferrer"><img src="/images/youtube.png" alt="Youtube" height={25} width={25} /></Nav.Link>
               </Nav>
