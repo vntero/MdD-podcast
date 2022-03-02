@@ -1,33 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import { Container, Navbar, Nav } from 'react-bootstrap';
+
+//material ui
+import Box from '@mui/material/Box';
+import CssBaseline from '@mui/material/CssBaseline';
+import BottomNavigation from '@mui/material/BottomNavigation';
+import Paper from '@mui/material/Paper';
 
 
 function Footer() {
   return <div>
-        <Navbar bg="dark" variant="dark">
-          <Container>
-            <Navbar.Brand><Link to='/'><img src="/images/microphone.png" alt="MdD" height={35} width={35}/></Link></Navbar.Brand>
-            <Navbar.Toggle aria-controls="basic-navbar-nav" />
-            <Navbar.Collapse id="basic-navbar-nav">
-              
-              <Nav className="me-auto">
-                <Nav.Link><Link to='/about' style={{textDecoration: 'none'}}>Sobre nós</Link></Nav.Link>
-              </Nav>
-
-              <Nav>
-                <Navbar.Text>2022 © MdD</Navbar.Text>
-              </Nav>
-
-              <Nav>
-                <Nav.Link href="mailto:ola@maltadodesporto.com" target="_blank" rel="noreferrer"><img src="/images/mail.png" alt="Email" height={25} width={25} /></Nav.Link>
-                <Nav.Link href="https://instagram.com" target="_blank" rel="noreferrer"><img src="/images/instagram.png" alt="Instagram" height={25} width={25} /></Nav.Link>
-                <Nav.Link href="https://youtube.com" target="_blank" rel="noreferrer"><img src="/images/youtube.png" alt="Youtube" height={25} width={25} /></Nav.Link>
-              </Nav>
-
-            </Navbar.Collapse>
-          </Container>
-        </Navbar>
+        <Box sx={{ pb: 7 }}>
+          <CssBaseline />
+          <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
+            <BottomNavigation className='footer'>
+                <h5>2022 © MdD</h5>
+            </BottomNavigation>
+          </Paper>
+        </Box>
   </div>
 }
 

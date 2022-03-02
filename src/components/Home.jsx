@@ -2,21 +2,15 @@ import React from 'react';
 
 function Home() {
   return <>
-  <div className='home'>
-        <h1>O Podcast Malta do Desporto</h1>
-
-        <section>
-            <h5>
-            Duarte e Elton discutem todas as quinzenas sobre diferentes temas relacionados ao desporto à nível mundial.
-            </h5>
-        </section>
+    <div className='title'>
+        <h1>Malta do Desporto</h1>
+    </div>
+    <div className='intro'>
+        <p>Um podcast sobre o que nos une. <br />
+        Duarte e Elton discutem os temas do mundo desportivo.</p>
     </div>
     
-    <div className='episodes'>
-        <iframe title='ep3' src="https://open.spotify.com/embed/episode/3rkwBz5HAAb8Pzqfd02unS?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        <iframe title='ep2' src="https://open.spotify.com/embed/episode/5edNtOwiDVjuYjQcAIbH6s?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-        <iframe title='ep1' src="https://open.spotify.com/embed/episode/5JW1XErZLub7Ml1ruOWf8Y?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </div>
+    
 </>
 }
 

@@ -37,53 +37,25 @@
   }
 }
 
-.search-bar-div {
-  padding: 15px 30% 15px 30%;
+body {
+  font-family: 'Roboto Mono', monospace;
 }
 
-.home {
-  background-color: #323232;
-  color: white;
-  padding: 30px 60px 30px 60px;
+.title {
+  display: flex;
+  justify-content: center;
+  padding: 40px 0 0 0;
 }
 
-.episodes{
-  padding: 20px 50px 20px 50px;
+.intro {
+  display: flex;
+  justify-content: center;
+  color:darkslategray;
 }
 
-.about {
-  padding: 30px 60px 30px 60px;
-  background-color: #323232;
-  color: white;
-}
 
-.about-us {
-  margin: 60px;
-  padding-right: 200px;
+.footer {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.container {
-  display: flex;
-  width: 300px;
-}
-
-.about-text {
-  width: 60%;
-  max-height: 400px;
-  margin-left: 50px;
-}
-
-.presenters {
-  width: 70%;
-  height: 50%;
-  margin: 30px 0 30px 0;
-}
-
-.overlap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
