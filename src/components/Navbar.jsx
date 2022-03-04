@@ -14,8 +14,8 @@ import MenuItem from '@mui/material/MenuItem';
 import Button from '@mui/material/Button';
 
 const pages = [
-<Link style={{textDecoration: 'none', color: 'black'}} to="/about"><Button sx={{ my: 1, display: 'block', textTransform: 'uppercase' }}>sobre nós</Button></Link>, 
-<Link style={{textDecoration: 'none', color: 'black'}} to="/eps"><Button sx={{ my: 1, display: 'block', textTransform: 'uppercase' }}>episódios</Button></Link>,
+<Link style={{textDecoration: 'none'}} to="/about"><Button style={{color: 'gray'}} sx={{ my: 1, display: 'block', textTransform: 'uppercase' }}>sobre nós</Button></Link>, 
+<Link style={{textDecoration: 'none'}} to="/eps"><Button style={{color: 'gray'}} sx={{ my: 1, display: 'block', textTransform: 'uppercase' }}>episódios</Button></Link>,
 ];
 
 const Navbar = () => {
@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <AppBar elevation={1} position="sticky" style={{ background: 'white', color: 'black'}}>
+    <AppBar elevation={0} position="sticky" style={{ background: 'white', color: 'black'}}>
       <Container maxWidth="xl">
         <Toolbar disableGutters >
           <Typography

@@ -1,4 +1,5 @@
 import React from 'react';
+import Episode from './Episode';
 
 function Home() {
   return <>
@@ -7,10 +8,16 @@ function Home() {
     </div>
     <div className='intro'>
         <p>Um podcast sobre o que nos une. <br />
-        Duarte e Elton discutem os temas do mundo desportivo.</p>
+        Duarte e Elton sobre <span className='black'>bola</span>, e não só.</p>
     </div>
-    
-    
+
+    <div className='eps'>
+        <Episode/>
+        <Episode/>
+        <Episode/>
+        <Episode/>
+    </div>
+   
 </>
 }
 

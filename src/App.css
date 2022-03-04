@@ -51,7 +51,18 @@ body {
   display: flex;
   justify-content: center;
   text-align: center;
-  color:darkslategray;
+  color:grey;
+}
+
+.black {
+  color: black;
+  text-decoration:line-through;
+}
+
+.eps {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 

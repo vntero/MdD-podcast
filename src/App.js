@@ -3,19 +3,21 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom'
 
 //components
-import NavigationBar from './components/NavigationBar';
+import Navbar from './components/Navbar';
 import Home from './components/Home';
 import About from './components/About';
 import Footer from './components/Footer';
+import Episode from './components/Episode';
 
 //main function
 function App() {
   return (
     <div>
-      <NavigationBar/>
+      <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
+        <Route path='/episode' element={<Episode/>}/>
       </Routes>
       <Footer/>
     </div>
