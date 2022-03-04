@@ -11,7 +11,7 @@ function Footer() {
   return <div>
         <Box sx={{ pb: 7 }}>
           <CssBaseline />
-          <Paper sx={{ position: 'fixed', bottom: 0, left: 0, right: 0 }} elevation={3}>
+          <Paper sx={{ position: '', bottom: 0, left: 0, right: 0 }} elevation={0}>
             <BottomNavigation className='footer'>
                 <h5>2022 © MdD</h5>
             </BottomNavigation>

@@ -39,7 +39,7 @@ const Navbar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            <Link to="/"><img alt="Home" src="/images/microphone.png" height={45} width={45}/></Link> 
+            <Link to="/"><img alt="Home" src="/images/microphone.png" height={50} width={50}/></Link> 
            </Typography>
 
           <Typography
@@ -83,10 +83,15 @@ const Navbar = () => {
 
               ))}
             </Menu>
+
+
+        
+
+
           </Box>
 {/* MOBILE VIEW BURGER MENU STARTS BELOW */}
           <Typography sx={{display: { xs: 'flex', md: 'none' }}}>
-            <Link to="/"><img alt="Home" src="/images/microphone.png" height={45} width={45}/></Link> 
+            <Link to="/"><img alt="Home" src="/images/microphone.png" height={50} width={50}/></Link> 
           </Typography>
 {/* BELOW IS THE DESKTOP VERSION OPTIONS */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -99,7 +104,10 @@ const Navbar = () => {
               </Typography>
             ))}
           </Box>
-          
+{/* TRYING TO ADD THE SOCIAL MEDIA BUTTONS ON THE RIGHT SIDE OF THE NAVBAR  */}          
+          <Button color="inherit"><a href="mailto:hello@maltadodesporto.com" target="_blank" rel="noreferrer"><img src="/images/mail.png" alt="Email" height={25} width={25} /></a></Button>
+          <Button color="inherit"><a href="https://instagram.com" target="_blank" rel="noreferrer"><img src="/images/instagram.png" alt="Instagram" height={25} width={25} /></a></Button>
+          <Button color="inherit"><a href="https://twitter.com" target="_blank" rel="noreferrer"><img src="/images/twitter.png" alt="Twitter" height={25} width={25} /></a></Button>
         </Toolbar>
       </Container>
     </AppBar>
@@ -108,7 +116,7 @@ const Navbar = () => {
 export default Navbar;
 
 
-            // <a href="mailto:ola@maltadodesporto.com" target="_blank" rel="noreferrer"><img src="/images/mail.png" alt="Email" height={25} width={25} /></a>
-            // <a href="https://instagram.com" target="_blank" rel="noreferrer"><img src="/images/instagram.png" alt="Instagram" height={25} width={25} /></a>
-            // <a href="https://youtube.com" target="_blank" rel="noreferrer"><img src="/images/youtube.png" alt="Youtube" height={25} width={25} /></a>
+            // 
+            // 
+            // 
          

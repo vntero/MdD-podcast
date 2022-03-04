@@ -9,7 +9,7 @@ function Home() {
 
     <div className='intro'>
         <p>Um podcast sobre o que nos une. <br />
-        Duarte e Elton sobre <span className='black'>bola</span>, e não só.</p>
+        Duarte e Elton sobre <span className='black'>bola</span> tudo e mais alguma coisa.</p>
     </div>
 
     <div className='title'>
