@@ -27,8 +27,8 @@ export default function ImgMediaCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button size="small">Ouvir agora</Button>
-        <Button size="small">Partilhar</Button>
+        <Button style={{color: 'gray'}} size="small"><img alt="Home" src="/images/play.png" height={25} width={25}/></Button>
+        <Button style={{color: 'gray'}} size="small"><img alt="Home" src="/images/share.png" height={25} width={25}/></Button>
       </CardActions>
     </Card>
     </Container>
