@@ -39,7 +39,7 @@ const Navbar = () => {
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            <Link to="/"><img alt="Home" src="/images/microphone.png" height={35} width={35}/></Link> 
+            <Link to="/"><img alt="Home" src="/images/microphone.png" height={45} width={45}/></Link> 
            </Typography>
 
           <Typography
@@ -86,7 +86,7 @@ const Navbar = () => {
           </Box>
 {/* MOBILE VIEW BURGER MENU STARTS BELOW */}
           <Typography sx={{display: { xs: 'flex', md: 'none' }}}>
-            <Link to="/"><img alt="Home" src="/images/microphone.png" height={35} width={35}/></Link> 
+            <Link to="/"><img alt="Home" src="/images/microphone.png" height={45} width={45}/></Link> 
           </Typography>
 {/* BELOW IS THE DESKTOP VERSION OPTIONS */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
