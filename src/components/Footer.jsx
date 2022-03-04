@@ -9,7 +9,7 @@ import Paper from '@mui/material/Paper';
 
 function Footer() {
   return <div>
-        <Box sx={{ pb: 7 }}>
+        <Box sx={{ pt: 7 }}>
           <CssBaseline />
           <Paper sx={{ position: '', bottom: 0, left: 0, right: 0 }} elevation={0}>
             <BottomNavigation className='footer'>

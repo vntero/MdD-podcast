@@ -37,8 +37,13 @@
   }
 }
 
+a {
+  margin: 0 5px 0 5px;
+}
+
 body {
   font-family: 'Roboto Mono', monospace;
+  margin-bottom: 0;
 }
 
 .title {

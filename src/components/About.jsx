@@ -11,7 +11,6 @@ function About() {
     <div className='overlap'>
         <img className='presenters' src="/images/presenters.jpg" alt="presenters" />
     </div>
-    
 </>
 }
 

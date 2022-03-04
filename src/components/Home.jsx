@@ -22,7 +22,13 @@ function Home() {
         <Episode/>
         <Episode/>
     </div>
-   
+
+    <div className='eps'>
+        <Episode/>
+        <Episode/>
+        <Episode/>
+        <Episode/>
+    </div>
 </>
 }
 

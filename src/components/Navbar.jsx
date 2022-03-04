@@ -32,15 +32,16 @@ const Navbar = () => {
   return (
     <AppBar elevation={0} position="sticky" style={{ background: 'white', color: 'black'}}>
       <Container maxWidth="xl">
-        <Toolbar disableGutters >
+        <Toolbar disableGutters>
           <Typography
             variant="h6"
             noWrap
             component="div"
             sx={{ mr: 2, display: { xs: 'none', md: 'flex' } }}
           >
-            <Link to="/"><img alt="Home" src="/images/microphone.png" height={50} width={50}/></Link> 
-           </Typography>
+{/* LOGO OF THE DESKTOP VERSION */}
+            <Link to="/"><img alt="Home" src="/images/microphone.png" height={60} width={60}/></Link> 
+            </Typography>
 
           <Typography
             variant="h6"
@@ -83,15 +84,11 @@ const Navbar = () => {
 
               ))}
             </Menu>
-
-
-        
-
-
           </Box>
+
 {/* MOBILE VIEW BURGER MENU STARTS BELOW */}
           <Typography sx={{display: { xs: 'flex', md: 'none' }}}>
-            <Link to="/"><img alt="Home" src="/images/microphone.png" height={50} width={50}/></Link> 
+            <Link to="/"><img alt="Home" src="/images/microphone.png" height={60} width={60}/></Link> 
           </Typography>
 {/* BELOW IS THE DESKTOP VERSION OPTIONS */}
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
@@ -104,10 +101,10 @@ const Navbar = () => {
               </Typography>
             ))}
           </Box>
-{/* TRYING TO ADD THE SOCIAL MEDIA BUTTONS ON THE RIGHT SIDE OF THE NAVBAR  */}          
-          <Button color="inherit"><a href="mailto:hello@maltadodesporto.com" target="_blank" rel="noreferrer"><img src="/images/mail.png" alt="Email" height={25} width={25} /></a></Button>
-          <Button color="inherit"><a href="https://instagram.com" target="_blank" rel="noreferrer"><img src="/images/instagram.png" alt="Instagram" height={25} width={25} /></a></Button>
-          <Button color="inherit"><a href="https://twitter.com" target="_blank" rel="noreferrer"><img src="/images/twitter.png" alt="Twitter" height={25} width={25} /></a></Button>
+{/* SOCIAL MEDIA BUTTONS ON THE RIGHT SIDE OF THE NAVBAR  */}          
+          <a href="mailto:hello@maltadodesporto.com" target="_blank" rel="noreferrer"><img src="/images/mail.png" alt="Email" height={35} width={35}/></a>
+          <a href="https://instagram.com" target="_blank" rel="noreferrer"><img src="/images/instagram.png" alt="Instagram" height={35} width={35}/></a>
+          <a href="https://twitter.com" target="_blank" rel="noreferrer"><img src="/images/twitter.png" alt="Twitter" height={35} width={35}/></a>
         </Toolbar>
       </Container>
     </AppBar>
