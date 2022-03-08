@@ -3,7 +3,6 @@ import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
-import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import Container from '@mui/material/Container';
 
@@ -27,8 +26,8 @@ export default function ImgMediaCard() {
         </Typography>
       </CardContent>
       <CardActions>
-        <Button style={{color: 'gray'}} size="small"><img alt="Home" src="/images/play.png" height={25} width={25}/></Button>
-        <Button style={{color: 'gray'}} size="small"><img alt="Home" src="/images/share.png" height={25} width={25}/></Button>
+        <img alt="Home" src="/images/play.png" height={25} width={25}/>
+        <img alt="Home" src="/images/share.png" height={25} width={25}/>
       </CardActions>
     </Card>
     </Container>

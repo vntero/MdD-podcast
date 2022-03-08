@@ -9,11 +9,11 @@ import Paper from '@mui/material/Paper';
 
 function Footer() {
   return <div>
-        <Box sx={{ pt: 7 }}>
+        <Box sx={{ pt: 7, pd: 0 }}>
           <CssBaseline />
-          <Paper sx={{ position: '', bottom: 0, left: 0, right: 0 }} elevation={0}>
-            <BottomNavigation className='footer'>
-                <h5>2022 © MdD</h5>
+          <Paper>
+            <BottomNavigation sx={{ pt: 2 }} className='footer'>
+                <p>2022 © MdD</p>
             </BottomNavigation>
           </Paper>
         </Box>
