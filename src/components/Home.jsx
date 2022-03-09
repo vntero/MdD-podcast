@@ -1,5 +1,6 @@
 import React from 'react';
 import Episode from './Episode';
+import Button from '@mui/material/Button';
 
 function Home() {
   return <>
@@ -29,6 +30,11 @@ function Home() {
         <Episode/>
         <Episode/>
     </div>
+
+    <div className='mais-episodios'>
+        <Button style={{color: 'gray'}} sx={{ my: 1, display: 'block', textTransform: 'uppercase' }}>mais episódios</Button>
+    </div>
+    
 </>
 }
 

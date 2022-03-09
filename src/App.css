@@ -96,3 +96,8 @@ body {
   width: fit-content;
   height: fit-content;
 }
+
+.mais-episodios {
+  display: flex;
+  justify-content: center;
+}

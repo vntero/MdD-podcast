@@ -13,11 +13,11 @@ export default function ImgMediaCard() {
       <CardMedia
         component="img"
         alt="green iguana"
-        height="140"
+        height="80"
         image="/images/dummy1.jpeg"
       />
       <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
+        <Typography gutterBottom variant="h6" component="div">
           Ep.4 - Novo formato da Champions
         </Typography>
         <Typography variant="body2" color="text.secondary">
