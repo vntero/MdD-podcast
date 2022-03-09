@@ -27,7 +27,14 @@ function About() {
         </Typography>
     </div>
     <div className='mini-container-two'>
-        <img style={{ width: 400, height:500}} src="/images/presenters.png" alt="" />
+            <img style={{ width: 500, height:350}} src="/images/presenters.png" alt="" />
+        <br />
+        <br /> 
+        <br />
+        <br />
+            <Typography sx={{ fontSize: 14 }} color="text.primary" gutterBottom>
+                Elton à esquerda, Duarte à direita
+            </Typography>
     </div>
 </div>
 }
